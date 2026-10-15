@@ -2,8 +2,8 @@
 
 | ID | Descrição | Prioridade | Requisitos relacionados |
 |---|---|---|---|
-| RF01 | O sistema deve permitir que o visitante consulte a lista de veículos disponíveis no estoque, exibindo foto, nome/modelo e preço de cada um. | Alta | - |
-| RF02 | O sistema deve permitir que o visitante consulte os detalhes de um veículo selecionado: fotos, nome/modelo, ano, preço e descrição. | Alta | RF01 |
+| RF01 | O sistema deve permitir que o visitante visualize a lista de veículos disponíveis no estoque, exibindo foto principal, nome/modelo e preço de cada um. | Alta | - |
+| RF02 | O sistema deve permitir que o visitante selecione um veículo da lista para consultar seus detalhes, incluindo fotos, nome/modelo, ano, preço e descrição. | Alta | RF01 |
 | RF03 | O sistema deve permitir que o visitante pesquise veículos por nome ou modelo. | Alta | RF01 |
 | RF04 | O sistema deve exibir uma mensagem ao visitante quando a pesquisa não encontrar nenhum veículo. | Média | RF03 |
 | RF05 | O sistema deve permitir que o visitante consulte as informações de contato da loja: telefone, endereço, e-mail e horário de atendimento. | Alta | - |

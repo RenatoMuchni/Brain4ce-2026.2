@@ -1,4 +1,4 @@
-# Histórias de Usuário - Auto Elite
+# Histórias de Usuário
 
 ## US01
 

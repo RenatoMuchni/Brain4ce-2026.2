@@ -1,7 +1,7 @@
 🧠 brain4ce
 📚 Disciplina
 
-Desenvolvimento Ágil — 2026/03
+Desenvolvimento Ágil — 2026/02
 👥 Integrantes
 
     Bruno Rocha de Souza — GitHub

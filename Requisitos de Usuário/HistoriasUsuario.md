@@ -1,5 +1,14 @@
 # Histórias de Usuário
 
+| ID | História | Prioridade | Story Points |
+|---|---|---|---|
+| US01 | Visualizar a lista de veículos | Alta | 2 |
+| US02 | Ver os detalhes de um veículo | Alta | 3 |
+| US03 | Pesquisar veículos por nome ou modelo | Alta | 3 |
+| US04 | Mensagem quando a pesquisa não encontra veículos | Média | 1 |
+| US05 | Consultar o contato da loja | Alta | 2 |
+| US06 | Conhecer a loja na página inicial | Média | 2 |
+
 ## US01
 
 **História:** Como visitante, eu quero visualizar a lista de veículos disponíveis no estoque, para conhecer as opções da loja.
@@ -11,6 +20,7 @@
 - Dado que o visitante usa celular ou computador, quando acessar a lista, então não deve haver rolagem horizontal.
 
 **Prioridade:** Alta  
+**Story Points:** 2  
 **RF relacionados:** RF01  
 **RNF relacionados:** RNF01, RNF03
 
@@ -26,6 +36,7 @@
 - Dado que o visitante usa celular ou computador, quando abrir os detalhes, então não deve haver rolagem horizontal.
 
 **Prioridade:** Alta  
+**Story Points:** 3  
 **RF relacionados:** RF02  
 **RNF relacionados:** RNF03
 
@@ -41,6 +52,7 @@
 - Dado que há uma pesquisa ativa, quando o visitante limpar o campo, então a lista completa deve voltar a ser exibida.
 
 **Prioridade:** Alta  
+**Story Points:** 3  
 **RF relacionados:** RF03  
 **RNF relacionados:** RNF02
 
@@ -55,6 +67,7 @@
 - Dado que a mensagem foi exibida, quando o visitante quiser pesquisar de novo, então o campo de busca deve continuar disponível.
 
 **Prioridade:** Média  
+**Story Points:** 1  
 **RF relacionados:** RF04  
 **RNF relacionados:** RNF02
 
@@ -65,11 +78,12 @@
 **História:** Como visitante, eu quero consultar as informações de contato da loja, para falar com a equipe sobre um veículo.
 
 **Critérios de aceitação:**
-- Dado que o visitante abriu o contato, quando a página for exibida, então devem aparecer telefone, endereço, e-mail e horário de atendimento.
+- Dado que o visitante abriu o contato, quando a página for exibida, então devem aparecer endereço, e-mail e horário de atendimento.
 - Dado que o visitante está em qualquer página, quando procurar o contato, então deve chegar a ele em até 2 cliques.
 - Dado que o visitante usa celular ou computador, quando abrir o contato, então não deve haver rolagem horizontal.
 
 **Prioridade:** Alta  
+**Story Points:** 2  
 **RF relacionados:** RF05  
 **RNF relacionados:** RNF03, RNF04
 
@@ -84,6 +98,7 @@
 - Dado que o visitante está na página inicial, quando quiser ver os veículos ou o contato, então deve haver acesso direto a ambos.
 
 **Prioridade:** Média  
+**Story Points:** 2  
 **RF relacionados:** RF06  
 **RNF relacionados:** RNF05
 

@@ -1,12 +1,12 @@
 # Auto Elite
 
-Projeto da disciplina AS63C - Desenvolvimento Ágil (2026/02), feito pela equipe brain4ce.
+<img src="Figuras/logo.png" alt="Logo da equipe brain4ce" width="200">
 
-## Sobre o projeto
+Equipe: brain4ce
 
-O Auto Elite é um site de uma loja de veículos. Nele o visitante vê os carros que estão no estoque, pesquisa por nome ou modelo e encontra o contato da loja.
+Disciplina: AS63C - Desenvolvimento Ágil
 
-O site terá página inicial, lista de veículos, detalhes de cada veículo, busca por nome ou modelo e contato da loja.
+Ano/Semestre: 2026/02
 
 ## Integrantes
 
@@ -18,12 +18,28 @@ O site terá página inicial, lista de veículos, detalhes de cada veículo, bus
 
 [Renato Muchni Teixeira](https://github.com/RenatoMuchni)
 
-## Pastas do repositório
+## Sobre o projeto
 
-Requisitos de Usuário: requisitos funcionais, requisitos não funcionais, histórias de usuário e inspeções.
+O Auto Elite é um site de uma loja de carros seminovos. O objetivo é que o visitante consiga ver os carros que a loja tem, pesquisar o carro que procura e encontrar o contato da loja.
 
-Requisitos de Sistema: modelagem do sistema (Astah).
+Principais funcionalidades:
 
-Protótipos: protótipo do site.
+- Página inicial com a apresentação da loja
+- Lista de veículos do estoque com foto, nome, ano, quilometragem e preço
+- Detalhes de cada veículo
+- Pesquisa por nome ou modelo
+- Contato da loja (endereço, e-mail e horário de atendimento)
 
-Figuras: imagens do projeto.
+Público-alvo: pessoas que querem comprar um carro usado e querem ver as opções da loja pela internet antes de ir até lá.
+
+## Documentos do repositório
+
+- [Requisitos Funcionais](Requisitos%20de%20Usu%C3%A1rio/RF.md)
+- [Requisitos Não Funcionais](Requisitos%20de%20Usu%C3%A1rio/RNF.md)
+- [Histórias de Usuário](Requisitos%20de%20Usu%C3%A1rio/HistoriasUsuario.md)
+- [Histórias de Usuário com IA (PDF)](Requisitos%20de%20Usu%C3%A1rio/Prompt-Historias-Usuarios.pdf)
+- Inspeção realizada
+- Inspeção recebida
+- [Protótipo](Prototipa%C3%A7%C3%A3o)
+- Modelagem no Astah (Requisitos de Sistema)
+- Vídeo de apresentação

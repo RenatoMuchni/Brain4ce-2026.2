@@ -6,5 +6,5 @@
 | RF02 | O sistema deve permitir que o visitante selecione um veículo da lista para consultar seus detalhes, incluindo fotos, nome/modelo, ano, preço e descrição. | Alta | RF01 |
 | RF03 | O sistema deve permitir que o visitante pesquise veículos por nome ou modelo. | Alta | RF01 |
 | RF04 | O sistema deve exibir uma mensagem ao visitante quando a pesquisa não encontrar nenhum veículo. | Média | RF03 |
-| RF05 | O sistema deve permitir que o visitante consulte as informações de contato da loja: telefone, endereço, e-mail e horário de atendimento. | Alta | - |
+| RF05 | O sistema deve permitir que o visitante consulte as informações de contato da loja: endereço, e-mail e horário de atendimento. | Alta | - |
 | RF06 | O sistema deve permitir que o visitante conheça a loja na página inicial, com acesso à lista de veículos e ao contato. | Média | RF01, RF05 |

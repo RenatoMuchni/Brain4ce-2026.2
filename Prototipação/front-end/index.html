@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoElite Motors</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="barra-acessibilidade" aria-label="Opções de acessibilidade">
+        <span class="ac-titulo">Acessibilidade</span>
+
+        <div class="ac-grupo">
+            <button type="button" id="ac-contraste" class="ac-btn" onclick="ligarContraste()">Alto contraste: desativado</button>
+        </div>
+
+        <div class="ac-grupo">
+            <span class="ac-rotulo">Texto</span>
+            <button type="button" class="ac-btn" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
+            <span class="ac-valor" id="ac-fonte" aria-live="polite">100%</span>
+            <button type="button" class="ac-btn" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
+        </div>
+
+        <div class="ac-grupo">
+            <span class="ac-rotulo">Espaçamento</span>
+            <button type="button" class="ac-btn" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
+            <span class="ac-valor" id="ac-espaco" aria-live="polite">Normal</span>
+            <button type="button" class="ac-btn" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
+        </div>
+
+        <button type="button" id="ac-redefinir" class="ac-btn" onclick="redefinir()">Redefinir</button>
+    </nav>
+
+    <header id="inicio">
+        <a href="./index.html"><img src="./imagens/logo_cabecalho.png" class="logo" alt="AutoElite Motors - página inicial"></a>
+    </header>
+
+    <nav class="menu" aria-label="Menu principal">
+        <a href="#inicio">INICIO</a>
+        <a href="#estoque">ESTOQUE</a>
+        <a href="#contato">CONTATOS</a>
+    </nav>
+
+    <main>
+
+        <div class="pesquisa">
+            <label for="campo-busca" class="escondido">Pesquisar veículos</label>
+            <input type="text" id="campo-busca" placeholder="Pesquisar veículos..." onkeyup="teclaBusca(event)">
+            <button type="button" onclick="pesquisar()"><img src="./icones/buscar.svg" class="icone-buscar" alt="Buscar"></button>
+        </div>
+
+        <section class="banner">
+            <div class="banner-texto">
+                <h1>Auto<span>Elite</span> Motors</h1>
+                <p>Seminovos revisados, com procedência e preço justo</p>
+                <a href="#estoque" class="btn-detalhes">Ver estoque</a>
+            </div>
+        </section>
+
+        <section id="estoque">
+            <h2>Nosso Estoque</h2>
+
+            <div class="carro">
+                <img src="./imagens/civic.png" alt="Honda Civic 1.8 EXS">
+                <h3>Honda Civic 1.8 EXS</h3>
+                <p>Quilometragem: 118.000</p>
+                <p>Ano: 2012</p>
+                <p>Preço: R$ 70.990</p>
+                <a href="./html/detalhes.html#civic" class="btn-detalhes">Ver detalhes</a>
+            </div>
+
+            <div class="carro">
+                <img src="./imagens/fluence.png" alt="Renault Fluence 2.0 Privilege">
+                <h3>Renault Fluence 2.0 Privilege</h3>
+                <p>Quilometragem: 95.000</p>
+                <p>Ano: 2014</p>
+                <p>Preço: R$ 49.990</p>
+                <a href="./html/detalhes.html#fluence" class="btn-detalhes">Ver detalhes</a>
+            </div>
+
+            <div class="carro">
+                <img src="./imagens/gol.png" alt="Volkswagen Gol 1.6 City">
+                <h3>Volkswagen Gol 1.6 City</h3>
+                <p>Quilometragem: 110.000</p>
+                <p>Ano: 2013/2014</p>
+                <p>Preço: R$ 42.900</p>
+                <a href="./html/detalhes.html#gol" class="btn-detalhes">Ver detalhes</a>
+            </div>
+
+            <p id="nenhum-veiculo" class="aviso-busca" aria-live="polite">Nenhum veículo encontrado</p>
+        </section>
+
+    </main>
+
+    <footer class="rodape" id="contato">
+        <h2>CONTATOS</h2>
+        <div class="info-loja">
+            <p>Endereço: Avenida dos Motores, 850 - Jardim Elite - Cornélio Procópio/PR</p>
+            <p>E-mail: contato@autoelitemotors.com.br</p>
+            <p>Horário de atendimento: segunda a sexta, das 8h às 18h, e sábado, das 8h às 12h</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

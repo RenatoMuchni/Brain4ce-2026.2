@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do veículo - AutoElite Motors</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="barra-acessibilidade" aria-label="Opções de acessibilidade">
+        <span class="ac-titulo">Acessibilidade</span>
+
+        <div class="ac-grupo">
+            <button type="button" id="ac-contraste" class="ac-btn" onclick="ligarContraste()">Alto contraste: desativado</button>
+        </div>
+
+        <div class="ac-grupo">
+            <span class="ac-rotulo">Texto</span>
+            <button type="button" class="ac-btn" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
+            <span class="ac-valor" id="ac-fonte" aria-live="polite">100%</span>
+            <button type="button" class="ac-btn" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
+        </div>
+
+        <div class="ac-grupo">
+            <span class="ac-rotulo">Espaçamento</span>
+            <button type="button" class="ac-btn" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
+            <span class="ac-valor" id="ac-espaco" aria-live="polite">Normal</span>
+            <button type="button" class="ac-btn" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
+        </div>
+
+        <button type="button" id="ac-redefinir" class="ac-btn" onclick="redefinir()">Redefinir</button>
+    </nav>
+
+    <header id="inicio">
+        <a href="../index.html"><img src="../imagens/logo_cabecalho.png" class="logo" alt="AutoElite Motors - página inicial"></a>
+    </header>
+
+    <nav class="menu" aria-label="Menu principal">
+        <a href="../index.html#inicio">INICIO</a>
+        <a href="../index.html#estoque">ESTOQUE</a>
+        <a href="../index.html#contato">CONTATOS</a>
+    </nav>
+
+    <main>
+
+        <h1 class="escondido">Detalhes do veículo</h1>
+
+        <section class="veiculo detalhes-container" id="civic">
+
+            <h2>Honda Civic 1.8 EXS</h2>
+
+            <img src="../imagens/civic.png" alt="Honda Civic 1.8 EXS" class="foto-detalhe">
+
+            <div class="detalhes-texto">
+                <p class="detalhes-preco">Preço: R$ 70.990</p>
+                <p>Ano: 2012</p>
+                <p>Quilometragem: 118.000</p>
+                <p>Câmbio: Automático</p>
+                <p>Combustível: Flex</p>
+                <p>Cor: Prata</p>
+                <p>Sedã completo, com bancos de couro, central multimídia e revisões feitas na concessionária.</p>
+
+                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+            </div>
+        </section>
+
+        <section class="veiculo detalhes-container" id="fluence">
+
+            <h2>Renault Fluence 2.0 Privilege</h2>
+
+            <img src="../imagens/fluence.png" alt="Renault Fluence 2.0 Privilege" class="foto-detalhe">
+
+            <div class="detalhes-texto">
+                <p class="detalhes-preco">Preço: R$ 49.990</p>
+                <p>Ano: 2014</p>
+                <p>Quilometragem: 95.000</p>
+                <p>Câmbio: Automático (CVT)</p>
+                <p>Combustível: Flex</p>
+                <p>Cor: Prata</p>
+                <p>Sedã com teto solar, sensor de estacionamento e porta-malas de 530 litros.</p>
+
+                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+            </div>
+        </section>
+
+        <section class="veiculo detalhes-container" id="gol">
+
+            <h2>Volkswagen Gol 1.6 City</h2>
+
+            <img src="../imagens/gol.png" alt="Volkswagen Gol 1.6 City" class="foto-detalhe">
+
+            <div class="detalhes-texto">
+                <p class="detalhes-preco">Preço: R$ 42.900</p>
+                <p>Ano: 2013/2014</p>
+                <p>Quilometragem: 110.000</p>
+                <p>Câmbio: Manual</p>
+                <p>Combustível: Flex</p>
+                <p>Cor: Branco</p>
+                <p>Hatch econômico, com direção hidráulica, ar-condicionado e vidros elétricos. Ótimo para o dia a dia.</p>
+
+                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape" id="contato">
+        <h2>CONTATOS</h2>
+        <div class="info-loja">
+            <p>Endereço: Avenida dos Motores, 850 - Jardim Elite - Cornélio Procópio/PR</p>
+            <p>E-mail: contato@autoelitemotors.com.br</p>
+            <p>Horário de atendimento: segunda a sexta, das 8h às 18h, e sábado, das 8h às 12h</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

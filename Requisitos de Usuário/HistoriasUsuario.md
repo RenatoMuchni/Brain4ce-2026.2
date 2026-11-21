@@ -22,7 +22,7 @@
 **Prioridade:** Alta  
 **Story Points:** 2  
 **RF relacionados:** RF01  
-**RNF relacionados:** RNF01, RNF03
+**RNF relacionados:** RNF01, RNF03, RNF05, RNF06
 
 ---
 
@@ -38,7 +38,7 @@
 **Prioridade:** Alta  
 **Story Points:** 3  
 **RF relacionados:** RF02  
-**RNF relacionados:** RNF03
+**RNF relacionados:** RNF03, RNF05, RNF06
 
 ---
 
@@ -54,7 +54,7 @@
 **Prioridade:** Alta  
 **Story Points:** 3  
 **RF relacionados:** RF03  
-**RNF relacionados:** RNF02
+**RNF relacionados:** RNF02, RNF03, RNF05, RNF06
 
 ---
 
@@ -69,7 +69,7 @@
 **Prioridade:** Média  
 **Story Points:** 1  
 **RF relacionados:** RF04  
-**RNF relacionados:** RNF02
+**RNF relacionados:** RNF02, RNF03, RNF05, RNF06
 
 ---
 
@@ -85,7 +85,7 @@
 **Prioridade:** Alta  
 **Story Points:** 2  
 **RF relacionados:** RF05  
-**RNF relacionados:** RNF03, RNF04
+**RNF relacionados:** RNF03, RNF04, RNF05, RNF06
 
 ---
 
@@ -100,6 +100,6 @@
 **Prioridade:** Média  
 **Story Points:** 2  
 **RF relacionados:** RF06  
-**RNF relacionados:** RNF05
+**RNF relacionados:** RNF03, RNF05, RNF06
 
 ---

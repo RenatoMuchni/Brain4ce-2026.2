@@ -18,24 +18,24 @@
         <span class="ac-titulo">Acessibilidade</span>
 
         <div class="ac-grupo">
-            <button type="button" id="ac-contraste" class="ac-btn" onclick="ligarContraste()">Alto contraste: desativado</button>
+            <button type="button" id="ac-contraste" class="ac-botao" onclick="ligarContraste()">Alto contraste: desativado</button>
         </div>
 
         <div class="ac-grupo">
             <span class="ac-rotulo">Texto</span>
-            <button type="button" class="ac-btn" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
+            <button type="button" class="ac-botao" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
             <span class="ac-valor" id="ac-fonte" aria-live="polite">100%</span>
-            <button type="button" class="ac-btn" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
+            <button type="button" class="ac-botao" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
         </div>
 
         <div class="ac-grupo">
             <span class="ac-rotulo">Espaçamento</span>
-            <button type="button" class="ac-btn" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
+            <button type="button" class="ac-botao" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
             <span class="ac-valor" id="ac-espaco" aria-live="polite">Normal</span>
-            <button type="button" class="ac-btn" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
+            <button type="button" class="ac-botao" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
         </div>
 
-        <button type="button" id="ac-redefinir" class="ac-btn" onclick="redefinir()">Redefinir</button>
+        <button type="button" id="ac-redefinir" class="ac-botao" onclick="redefinir()">Redefinir</button>
     </nav>
 
     <header id="inicio">
@@ -43,7 +43,7 @@
     </header>
 
     <nav class="menu" aria-label="Menu principal">
-        <a href="../index.html#inicio">INICIO</a>
+        <a href="../index.html#inicio">INÍCIO</a>
         <a href="../index.html#estoque">ESTOQUE</a>
         <a href="../index.html#contato">CONTATOS</a>
     </nav>
@@ -52,7 +52,7 @@
 
         <h1 class="escondido">Detalhes do veículo</h1>
 
-        <section class="veiculo detalhes-container" id="civic">
+        <section class="veiculo caixa-detalhes" id="civic">
 
             <h2>Honda Civic 1.8 EXS</h2>
 
@@ -61,17 +61,13 @@
             <div class="detalhes-texto">
                 <p class="detalhes-preco">Preço: R$ 70.990</p>
                 <p>Ano: 2012</p>
-                <p>Quilometragem: 118.000</p>
-                <p>Câmbio: Automático</p>
-                <p>Combustível: Flex</p>
-                <p>Cor: Prata</p>
                 <p>Sedã completo, com bancos de couro, central multimídia e revisões feitas na concessionária.</p>
 
-                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+                <a href="../index.html#estoque" class="botao-detalhes">Voltar para o estoque</a>
             </div>
         </section>
 
-        <section class="veiculo detalhes-container" id="fluence">
+        <section class="veiculo caixa-detalhes" id="fluence">
 
             <h2>Renault Fluence 2.0 Privilege</h2>
 
@@ -80,17 +76,13 @@
             <div class="detalhes-texto">
                 <p class="detalhes-preco">Preço: R$ 49.990</p>
                 <p>Ano: 2014</p>
-                <p>Quilometragem: 95.000</p>
-                <p>Câmbio: Automático (CVT)</p>
-                <p>Combustível: Flex</p>
-                <p>Cor: Prata</p>
                 <p>Sedã com teto solar, sensor de estacionamento e porta-malas de 530 litros.</p>
 
-                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+                <a href="../index.html#estoque" class="botao-detalhes">Voltar para o estoque</a>
             </div>
         </section>
 
-        <section class="veiculo detalhes-container" id="gol">
+        <section class="veiculo caixa-detalhes" id="gol">
 
             <h2>Volkswagen Gol 1.6 City</h2>
 
@@ -99,13 +91,9 @@
             <div class="detalhes-texto">
                 <p class="detalhes-preco">Preço: R$ 42.900</p>
                 <p>Ano: 2013/2014</p>
-                <p>Quilometragem: 110.000</p>
-                <p>Câmbio: Manual</p>
-                <p>Combustível: Flex</p>
-                <p>Cor: Branco</p>
                 <p>Hatch econômico, com direção hidráulica, ar-condicionado e vidros elétricos. Ótimo para o dia a dia.</p>
 
-                <a href="../index.html#estoque" class="btn-detalhes">Voltar para o estoque</a>
+                <a href="../index.html#estoque" class="botao-detalhes">Voltar para o estoque</a>
             </div>
         </section>
 

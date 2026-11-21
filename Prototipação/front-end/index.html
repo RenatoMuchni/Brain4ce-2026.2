@@ -18,24 +18,24 @@
         <span class="ac-titulo">Acessibilidade</span>
 
         <div class="ac-grupo">
-            <button type="button" id="ac-contraste" class="ac-btn" onclick="ligarContraste()">Alto contraste: desativado</button>
+            <button type="button" id="ac-contraste" class="ac-botao" onclick="ligarContraste()">Alto contraste: desativado</button>
         </div>
 
         <div class="ac-grupo">
             <span class="ac-rotulo">Texto</span>
-            <button type="button" class="ac-btn" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
+            <button type="button" class="ac-botao" onclick="diminuirFonte()" aria-label="Diminuir texto">A−</button>
             <span class="ac-valor" id="ac-fonte" aria-live="polite">100%</span>
-            <button type="button" class="ac-btn" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
+            <button type="button" class="ac-botao" onclick="aumentarFonte()" aria-label="Aumentar texto">A+</button>
         </div>
 
         <div class="ac-grupo">
             <span class="ac-rotulo">Espaçamento</span>
-            <button type="button" class="ac-btn" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
+            <button type="button" class="ac-botao" onclick="diminuirEspaco()" aria-label="Reduzir espaçamento">−</button>
             <span class="ac-valor" id="ac-espaco" aria-live="polite">Normal</span>
-            <button type="button" class="ac-btn" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
+            <button type="button" class="ac-botao" onclick="aumentarEspaco()" aria-label="Aumentar espaçamento">+</button>
         </div>
 
-        <button type="button" id="ac-redefinir" class="ac-btn" onclick="redefinir()">Redefinir</button>
+        <button type="button" id="ac-redefinir" class="ac-botao" onclick="redefinir()">Redefinir</button>
     </nav>
 
     <header id="inicio">
@@ -43,7 +43,7 @@
     </header>
 
     <nav class="menu" aria-label="Menu principal">
-        <a href="#inicio">INICIO</a>
+        <a href="#inicio">INÍCIO</a>
         <a href="#estoque">ESTOQUE</a>
         <a href="#contato">CONTATOS</a>
     </nav>
@@ -60,7 +60,7 @@
             <div class="banner-texto">
                 <h1>Auto<span>Elite</span> Motors</h1>
                 <p>Seminovos revisados, com procedência e preço justo</p>
-                <a href="#estoque" class="btn-detalhes">Ver estoque</a>
+                <a href="#estoque" class="botao-detalhes">Ver estoque</a>
             </div>
         </section>
 
@@ -70,28 +70,22 @@
             <div class="carro">
                 <img src="./imagens/civic.png" alt="Honda Civic 1.8 EXS">
                 <h3>Honda Civic 1.8 EXS</h3>
-                <p>Quilometragem: 118.000</p>
-                <p>Ano: 2012</p>
                 <p>Preço: R$ 70.990</p>
-                <a href="./html/detalhes.html#civic" class="btn-detalhes">Ver detalhes</a>
+                <a href="./html/detalhes.html#civic" class="botao-detalhes">Ver detalhes</a>
             </div>
 
             <div class="carro">
                 <img src="./imagens/fluence.png" alt="Renault Fluence 2.0 Privilege">
                 <h3>Renault Fluence 2.0 Privilege</h3>
-                <p>Quilometragem: 95.000</p>
-                <p>Ano: 2014</p>
                 <p>Preço: R$ 49.990</p>
-                <a href="./html/detalhes.html#fluence" class="btn-detalhes">Ver detalhes</a>
+                <a href="./html/detalhes.html#fluence" class="botao-detalhes">Ver detalhes</a>
             </div>
 
             <div class="carro">
                 <img src="./imagens/gol.png" alt="Volkswagen Gol 1.6 City">
                 <h3>Volkswagen Gol 1.6 City</h3>
-                <p>Quilometragem: 110.000</p>
-                <p>Ano: 2013/2014</p>
                 <p>Preço: R$ 42.900</p>
-                <a href="./html/detalhes.html#gol" class="btn-detalhes">Ver detalhes</a>
+                <a href="./html/detalhes.html#gol" class="botao-detalhes">Ver detalhes</a>
             </div>
 
             <p id="nenhum-veiculo" class="aviso-busca" aria-live="polite">Nenhum veículo encontrado</p>

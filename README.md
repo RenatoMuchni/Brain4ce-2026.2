@@ -25,7 +25,7 @@ O Auto Elite é um site de uma loja de carros seminovos. O objetivo é que o vis
 Principais funcionalidades:
 
 - Página inicial com a apresentação da loja
-- Lista de veículos do estoque com foto, nome, ano, quilometragem e preço
+- Lista de veículos do estoque com foto, nome e preço
 - Detalhes de cada veículo
 - Pesquisa por nome ou modelo
 - Contato da loja (endereço, e-mail e horário de atendimento)
@@ -38,8 +38,8 @@ Público-alvo: pessoas que querem comprar um carro usado e querem ver as opçõe
 - [Requisitos Não Funcionais](Requisitos%20de%20Usu%C3%A1rio/RNF.md)
 - [Histórias de Usuário](Requisitos%20de%20Usu%C3%A1rio/HistoriasUsuario.md)
 - [Histórias de Usuário com IA (PDF)](Requisitos%20de%20Usu%C3%A1rio/Prompt-Historias-Usuarios.pdf)
-- Inspeção realizada
-- Inspeção recebida
+- [Inspeção realizada](Requisitos%20de%20Usu%C3%A1rio/Inspecao_Realizada.pdf)
+- [Inspeção recebida](Requisitos%20de%20Usu%C3%A1rio/Inspecao_Recebida.pdf)
 - [Protótipo](Prototipa%C3%A7%C3%A3o)
-- Modelagem no Astah (Requisitos de Sistema)
+- [Modelagem no Astah](Requisitos%20de%20Sistema/Brain4ce.asta)
 - Vídeo de apresentação

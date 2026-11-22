@@ -31,7 +31,7 @@
 **História:** Como visitante, eu quero ver os detalhes de um veículo, para decidir se ele atende ao que procuro.
 
 **Critérios de aceitação:**
-- Dado que o visitante está na lista, quando selecionar um veículo, então o sistema deve exibir fotos, nome/modelo, ano, preço e descrição.
+- Dado que o visitante está na lista, quando selecionar um veículo, então o sistema deve exibir foto, nome/modelo, ano, preço e descrição.
 - Dado que o visitante está nos detalhes, quando quiser voltar, então deve haver uma forma de retornar à lista.
 - Dado que o visitante usa celular ou computador, quando abrir os detalhes, então não deve haver rolagem horizontal.
 

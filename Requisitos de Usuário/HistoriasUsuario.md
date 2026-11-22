@@ -16,7 +16,7 @@
 **Critérios de aceitação:**
 - Dado que há veículos disponíveis, quando o visitante acessar a lista, então o sistema deve exibir esses veículos com foto, nome/modelo e preço.
 - Dado que um veículo está indisponível, quando o visitante acessar a lista, então esse veículo não deve aparecer.
-- Dado que o visitante acessou a lista, quando a página carregar, então o carregamento deve levar até 3 segundos.
+- Dado que o visitante abriu o site, quando a página carregar, então a lista deve aparecer com as fotos em até 3 segundos, nas condições do RNF01.
 - Dado que o visitante usa celular ou computador, quando acessar a lista, então não deve haver rolagem horizontal.
 
 **Prioridade:** Alta  
@@ -78,7 +78,7 @@
 **História:** Como visitante, eu quero consultar as informações de contato da loja, para falar com a equipe sobre um veículo.
 
 **Critérios de aceitação:**
-- Dado que o visitante abriu o contato, quando a página for exibida, então devem aparecer endereço, e-mail e horário de atendimento.
+- Dado que o visitante está em qualquer página, quando abrir o contato, então devem aparecer endereço, e-mail e horário de atendimento.
 - Dado que o visitante está em qualquer página, quando procurar o contato, então deve chegar a ele em até 2 cliques.
 - Dado que o visitante usa celular ou computador, quando abrir o contato, então não deve haver rolagem horizontal.
 

@@ -40,6 +40,6 @@ Público-alvo: pessoas que querem comprar um carro usado e querem ver as opçõe
 - [Histórias de Usuário com IA (PDF)](Requisitos%20de%20Usu%C3%A1rio/Prompt-Historias-Usuarios.pdf)
 - [Inspeção realizada](Requisitos%20de%20Usu%C3%A1rio/Inspecao_Realizada.pdf)
 - [Inspeção recebida](Requisitos%20de%20Usu%C3%A1rio/Inspecao_Recebida.pdf)
-- [Protótipo](Prototipa%C3%A7%C3%A3o)
+- [Protótipo (site publicado)](https://renatomuchni.github.io/Brain4ce-2026.2/Prototipa%C3%A7%C3%A3o/front-end/) - [código do protótipo](Prototipa%C3%A7%C3%A3o)
 - [Modelagem no Astah](Requisitos%20de%20Sistema/Brain4ce.asta)
 - Vídeo de apresentação
